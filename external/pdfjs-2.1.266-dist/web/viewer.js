@@ -5132,7 +5132,7 @@ var defaultOptions = {
     kind: OptionKind.VIEWER
   },
   defaultUrl: {
-    value: 'https://www.osureunion.fr/wp-content/uploads/2022/03/pdf-exemple.pdf',
+    value: 'outfile.pdf',
     kind: OptionKind.VIEWER
   },
   defaultZoomValue: {
