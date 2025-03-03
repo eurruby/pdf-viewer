@@ -1739,7 +1739,7 @@ var PDFViewerApplication = {
 exports.PDFViewerApplication = PDFViewerApplication;
 var validateFileURL;
 {
-  var HOSTED_VIEWER_ORIGINS = ['null', 'http://mozilla.github.io', 'https://mozilla.github.io'];
+  var HOSTED_VIEWER_ORIGINS = ['null', 'http://mozilla.github.io', 'https://mozilla.github.io', 'https://pdf-viewer-aqe6.onrender.com'];
 
   validateFileURL = function validateFileURL(file) {
     if (file === undefined) {
@@ -5132,7 +5132,7 @@ var defaultOptions = {
     kind: OptionKind.VIEWER
   },
   defaultUrl: {
-    value: 'outfile.pdf',
+    value: 'https://www.osureunion.fr/wp-content/uploads/2022/03/pdf-exemple.pdf',
     kind: OptionKind.VIEWER
   },
   defaultZoomValue: {
